@@ -111,9 +111,6 @@ ALTER TABLE pasta OWNER TO postgres;
 -- Data for Name: calendario; Type: TABLE DATA; Schema: sistemasaude; Owner: postgres
 --
 
-COPY calendario (nm_descricao, dt_data) FROM stdin;
-\.
-
 
 --
 -- TOC entry 2166 (class 0 OID 33026)
@@ -121,8 +118,7 @@ COPY calendario (nm_descricao, dt_data) FROM stdin;
 -- Data for Name: login; Type: TABLE DATA; Schema: sistemasaude; Owner: postgres
 --
 
-COPY login (ds_senha, nm_nomecompleto, ds_email) FROM stdin;
-\.
+
 
 
 --
@@ -131,8 +127,6 @@ COPY login (ds_senha, nm_nomecompleto, ds_email) FROM stdin;
 -- Data for Name: medico; Type: TABLE DATA; Schema: sistemasaude; Owner: postgres
 --
 
-COPY medico (nm_nomecompleto, ds_email, ds_senha, ds_fichadopaciente, nm_especialidade) FROM stdin;
-\.
 
 
 --
@@ -141,8 +135,7 @@ COPY medico (nm_nomecompleto, ds_email, ds_senha, ds_fichadopaciente, nm_especia
 -- Data for Name: paciente; Type: TABLE DATA; Schema: sistemasaude; Owner: postgres
 --
 
-COPY paciente (nm_nomecompleto, ds_senha, ds_email, ds_datanascimento, ds_convenio) FROM stdin;
-\.
+
 
 
 --
@@ -151,8 +144,6 @@ COPY paciente (nm_nomecompleto, ds_senha, ds_email, ds_datanascimento, ds_conven
 -- Data for Name: pasta; Type: TABLE DATA; Schema: sistemasaude; Owner: postgres
 --
 
-COPY pasta (nm_receita, nm_prontuario, nm_exames, nr_diasconsulta) FROM stdin;
-\.
 
 
 --
