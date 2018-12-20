@@ -1,0 +1,4 @@
+br/mandin/ssistema/teste/TesteHibernate.class
+br/mandin/ssistema/servlet/Cadastro.class
+br/mandin/ssistema/entidades/pacientes.class
+br/mandin/ssistema/SessaoHibernate.class
